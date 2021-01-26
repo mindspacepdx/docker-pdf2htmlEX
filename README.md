@@ -9,6 +9,7 @@ pdf2htmlEX: 0.18.8.rc1
    - It also creates a .deb file so other's can reference that file.
  - Builds poppler-utils
    - Located here: /pdf2htmlEX/poppler/build/utils/
+     - ```make install``` in this directory to install the utils or copy them to another image using COPY in a dockerfile.
 
 Example Usage:
 ```
